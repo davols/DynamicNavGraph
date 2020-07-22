@@ -8,7 +8,9 @@ Quick links:
 * [nav_graph_feature.xml](https://github.com/davols/DynamicNavGraph/blob/master/featurea/src/main/res/navigation/nav_graph_feature.xml) Dynamic features own nav graph
 * [app/build.gradle](https://github.com/davols/DynamicNavGraph/blob/master/app/build.gradle) with `api` for deps.
 
-It crashes but it should work?
+It works as long as the feature has the same start/base package name as the thing having DynamicHostFragment. https://github.com/davols/DynamicNavGraph/commit/a488aeec83c83f60fb5093d3ec55db3a0778c4ed is the commit that fixed it all. 
+
+~~It crashes but it should work?~~
 
 ```
 2020-07-22 09:53:03.113 27187-27187/com.example.myapplication E/AndroidRuntime: FATAL EXCEPTION: main
@@ -38,3 +40,4 @@ It crashes but it should work?
 2020-07-22 09:53:03.124 27187-27187/com.example.myapplication I/Process: Sending signal. PID: 27187 SIG: 9
 
 ```
+
