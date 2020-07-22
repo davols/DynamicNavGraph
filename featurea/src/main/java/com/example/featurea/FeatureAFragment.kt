@@ -1,4 +1,4 @@
-package com.example.myapplication.featurea
+package com.example.featurea
 
 import androidx.fragment.app.Fragment
 
