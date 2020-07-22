@@ -4,9 +4,10 @@ Following https://developer.android.com/guide/navigation/navigation-dynamic and 
 
 Quick links:
 
-(nav_graph_feature.xml)[https://github.com/davols/DynamicNavGraph/blob/master/featurea/src/main/res/navigation/nav_graph_feature.xml]
-(activity.main.xml)[https://github.com/davols/DynamicNavGraph/blob/master/app/src/main/res/layout/activity_main.xml] with `android:name="androidx.navigation.dynamicfeatures.fragment.DynamicNavHostFragment"`
-(nav_graph.xml)[https://github.com/davols/DynamicNavGraph/blob/master/app/src/main/res/navigation/nav_graph.xml] main graph with `<include-dynamic`
+[nav_graph_feature.xml](https://github.com/davols/DynamicNavGraph/blob/master/featurea/src/main/res/navigation/nav_graph_feature.xml)
+[activity.main.xml](https://github.com/davols/DynamicNavGraph/blob/master/app/src/main/res/layout/activity_main.xml) with `android:name="androidx.navigation.dynamicfeatures.fragment.DynamicNavHostFragment"`
+[nav_graph.xml](https://github.com/davols/DynamicNavGraph/blob/master/app/src/main/res/navigation/nav_graph.xml) main graph with `<include-dynamic`
+[app/build.gradle](https://github.com/davols/DynamicNavGraph/blob/master/app/build.gradle) with `api` for deps.
 
 It crashes but it should work?
 
