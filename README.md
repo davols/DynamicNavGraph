@@ -1,6 +1,12 @@
-Dummy project to try out DynamicNavHost stuff. 
+Dummy project to try out DynamicNavHost - Want to use a dynamic features own included navigation graph. 
 
 Following https://developer.android.com/guide/navigation/navigation-dynamic and reading https://medium.com/google-developer-experts/exploring-dynamic-feature-navigation-on-android-c803bdbbca9b
+
+Quick links:
+
+(nav_graph_feature.xml)[https://github.com/davols/DynamicNavGraph/blob/master/featurea/src/main/res/navigation/nav_graph_feature.xml]
+(activity.main.xml)[https://github.com/davols/DynamicNavGraph/blob/master/app/src/main/res/layout/activity_main.xml] with `android:name="androidx.navigation.dynamicfeatures.fragment.DynamicNavHostFragment"`
+(nav_graph.xml)[https://github.com/davols/DynamicNavGraph/blob/master/app/src/main/res/navigation/nav_graph.xml] main graph with `<include-dynamic`
 
 It crashes but it should work?
 
