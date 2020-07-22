@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/blankFragment">
+
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.example.myapplication.StartFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_start" >
+        <action
+            android:id="@+id/action_blankFragment_to_featureNav"
+            app:destination="@id/featureNav" />
+    </fragment>
+
+    <include-dynamic
+        android:id="@+id/featureNav"
+        app:moduleName="featurea"
+        app:graphResName="nav_graph_featurea"
+        app:graphPackage="com.example.featurea" />
+</navigation>
