@@ -19,5 +19,5 @@
         android:id="@+id/featureNav"
         app:moduleName="featurea"
         app:graphResName="nav_graph_feature"
-        app:graphPackage="com.example.featurea" />
+        app:graphPackage="com.example.myapplication.featurea" />
 </navigation>
